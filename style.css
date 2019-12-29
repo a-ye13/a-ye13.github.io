@@ -1,31 +1,91 @@
-html, body {
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif; /* Add this line */
 }
 
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
 
-.body {
-    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+}
+
+#home .profile-picture {
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
 }
 
 .name {
     font-family: 'Roboto', sans-serif;
 }
 
-.wrapper {
-
-    max-width: 50%;
-    display: flex;
-    flex-direction: row;
-    height: 80%;
-}
-
-.left, .right {
+.home, .about {
     
     margin: 5px;
     max-width: 50%;
@@ -35,13 +95,9 @@ html, body {
     justify-content: center;
 }
 
-.left {
+.home {
     align-items: center;
     justify-content: center;
-}
-
-.profile-picture {
-    border-radius: 50%;
 }
 
 .social-links {
