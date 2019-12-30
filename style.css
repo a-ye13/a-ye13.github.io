@@ -81,6 +81,15 @@ section {
     margin: 50px;
 }
 
+.projects a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.projects a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 #home .profile-picture {
     width: 200px;
     border-radius: 50%;
@@ -94,16 +103,6 @@ footer {
 #projects h2 {
     text-align: center;
     align-items: center;
-}
-
-.project_tit {
-    text-align: center;
-    align-items: center;
-}
-
-.project_info {
-    text-align: left;
-    width: 300 px;
 }
 
 #home h1 {
