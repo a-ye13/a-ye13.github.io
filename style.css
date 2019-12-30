@@ -13,11 +13,11 @@ header {
     height: 50px;
     line-height: 50px;
     background-color: #eee;
+    box-shadow: 0 0 25px 0 black;
 }
 
 header * {
     display: inline;
-    height: 50px;
 }
 
 header ul {
@@ -25,16 +25,26 @@ header ul {
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 section {
     height: 100vh;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /*justify-content: center;
+    align-items: center;*/
+    /*text-align: center;*/
 
     background-size: cover;
     background-position: center center;
@@ -44,14 +54,31 @@ section {
 
 #home {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #about {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media-cdn.tripadvisor.com/media/vr-splice-j/06/fb/be/08.jpg');
+}
+
+.projects {
+    margin: 50px;
 }
 
 #home .profile-picture {
@@ -64,7 +91,26 @@ footer {
     padding: 50px;
 }
 
+#projects h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.project_tit {
+    text-align: center;
+    align-items: center;
+}
+
+.project_info {
+    text-align: left;
+    width: 300 px;
+}
+
 #home h1 {
+    font-size: 3em;
+}
+
+section h1 {
     font-size: 3em;
 }
 
@@ -76,28 +122,12 @@ section h3 {
     font-size: 1.5em;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
-}
-
 .name {
     font-family: 'Roboto', sans-serif;
 }
 
-.home, .about {
-    
-    margin: 5px;
-    max-width: 50%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.home {
-    align-items: center;
-    justify-content: center;
+.subtitle {
+    font-family: 'Roboto', sans-serif;
 }
 
 .social-links {
