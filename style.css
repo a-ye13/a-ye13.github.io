@@ -163,3 +163,14 @@ section h3 {
     font-family: "Georgia", serif;
     line-height: 2;
 }
+
+#course a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#course a:hover {
+    color: purple;
+    cursor: pointer;
+}
