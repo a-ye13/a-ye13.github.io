@@ -81,16 +81,16 @@ section {
     align-items: center;
 }
 
-#projects {
+#project_body {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
 }
 
-#course {
+#course_body {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
 }
 
 .projects {
-    margin: 50px;
+    margin: 20px;
 }
 
 .projects a {
@@ -173,4 +173,8 @@ section h3 {
 #course a:hover {
     color: purple;
     cursor: pointer;
+}
+
+.course {
+    margin: 20px;
 }
