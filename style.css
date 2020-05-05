@@ -89,6 +89,10 @@ section {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
 }
 
+#book_body {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://i.pinimg.com/originals/78/f3/4c/78f34c25a0faf5a1a566656b3d2ce10d.jpg');
+}
+
 .projects {
     margin: 20px;
 }
@@ -177,4 +181,26 @@ section h3 {
 
 .course {
     margin: 20px;
+}
+
+.book {
+    margin: 20px;
+}
+
+.book_img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.book_review {
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+.bookshelf {
+    line-height: 2;
+}
+
+.book_main {
+    font-family: "Georgia", serif;
 }
